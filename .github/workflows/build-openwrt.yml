@@ -50,7 +50,6 @@ jobs:
     - name: Start Build
       run: | 
         cd /home/runner/lede
-#       make -j1 V=s
         mv .config .config_default
         rm -f .config.old
         config_names="$(ls .config*)"
