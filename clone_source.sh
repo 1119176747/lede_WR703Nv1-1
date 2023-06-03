@@ -20,3 +20,4 @@ sed -i -e '4s/$/^2071d9f/g' feeds.conf.default
 ./scripts/feeds install -a -f
 
 popd
+
